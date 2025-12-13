@@ -20,6 +20,11 @@ body {
     border-style: dotted; */
 }
 
+.home-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 #home-links {
     display: flex;
