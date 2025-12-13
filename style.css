@@ -1,0 +1,63 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(200deg, #000000 0%, #111111 100%);
+    color: white;
+    height: 1000px;
+    /*
+    border-color: red;
+    border-style: dotted;
+    */
+    margin: 0;
+}
+
+#home{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*
+    border-color: red;
+    border-style: dotted; */
+}
+
+#home-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    width: 100%;
+    font-weight: lighter;
+    font-size: small;
+}
+
+#main {
+    height: 300px;
+    margin-left: 40px;
+    /* background-color: rgb(45, 45, 45);
+    border-color: red;
+    border-style: dotted;
+    */
+}
+
+
+#logo {
+    height: 20px;
+    margin-left: 40px;
+    
+}
+
+#headings {
+    width: 600px;
+    /*border-style: dotted;
+    border-color: red; */
+}
+
+#slogan {
+    font-weight: lighter;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#subheading {
+    font-weight: lighter;
+}
