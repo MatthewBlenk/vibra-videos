@@ -1,0 +1,27 @@
+:root[data-theme="dark"] {
+    --bg-dark: hsl(0, 0%, 0%);
+    --bg: hsla(0, 0%, 5%);
+    --bg-light: hsl(0, 0%, 10%);
+
+    --bg-dark-glass: hsla(0, 0%, 10%, 0.6);
+    --bg-glass: hsla(0, 0%, 20%);
+    --bg-light-glass: hsl(0, 0%, 10%);
+
+    --text: hsl(0, 0%, 95%);
+    --text-muted: hsl(0, 0%, 70%);
+
+    --green: hsla(126, 43%, 48%);
+    --green-glass: hsla(126, 43%, 48%, 0.2);
+    --green-border: hsl(126, 43%, 48%, 0.5);
+
+
+}
+
+:root[data-theme="light"] {
+    --bg-dark: hsl(0, 0%, 95%);
+    --bg: hsla(0, 0%, 90%);
+    --bg-light: hsl(0, 0%, 70%);
+
+    --text: hsl(0, 0%, 5%);
+    --text-muted: hsl(0, 0%, 30%);
+}
